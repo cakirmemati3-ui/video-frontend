@@ -1,7 +1,7 @@
 import axios, { AxiosError } from 'axios';
 import type { VideoInfo, ErrorResponse } from '@/types';
 
-const API_BASE_URL = 'https://video-backend-production-075e.up.railway.app';
+const API_BASE_URL = 'https://video-backend-production-5225.up.railway.app/';
 
 // Create axios instance
 const api = axios.create({
